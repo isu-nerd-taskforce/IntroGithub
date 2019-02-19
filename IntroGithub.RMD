@@ -75,6 +75,8 @@ knitr::include_graphics('./cartoon.png', auto_pdf = FALSE)
 - Once you are ready to share your progress with others, commit amending again, but enter a meaningful commit message. Push. 
 
 
+##  Did I do it?
+
 
 
 
