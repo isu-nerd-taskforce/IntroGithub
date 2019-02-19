@@ -64,7 +64,7 @@ knitr::include_graphics('./cartoon.png', auto_pdf = FALSE)
 - In the shell, type: `git branch yourname`
 - Now you can switch to your brach (upper right corner) and edit the file without affecting the master.
 - Switch to your branch, make some edits, save them
-- To have Github track your branch, open the shell and type `git push -u origin your_branch_name'
+- To have Github track your branch, open the shell and type `git push -u origin your_branch_name`
 - Now you can Pull/Push your branch (always Pull before your Push).
 
 ## Daily Workflow
