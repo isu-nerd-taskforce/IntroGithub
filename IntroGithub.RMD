@@ -3,11 +3,11 @@ title: "Introduction to Github"
 author: "Olga Chyzh"
 date: "February 19, 2019"
 output: 
-  beamer_presentation: default
   ioslides_presentation:
     transition: default
     widescreen: yes
     subtitle: 
+  beamer_presentation: default
 css: styles.css
 editor_options: 
   chunk_output_type: console
@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.align = 'center', message = FALSE, warnin
 ## Why Use Github?
 
 
-```{r echo=FALSE, out.width='55%', fig.show='hold', fig.align='center'}
+```{r echo=FALSE, out.width='40%', fig.show='hold', fig.align='center'}
 knitr::include_graphics('./cartoon.png', auto_pdf = FALSE)
 ```    
 
@@ -39,13 +39,13 @@ knitr::include_graphics('./cartoon.png', auto_pdf = FALSE)
 
 ## Some Terminology
 
-- A Repository/Repo: a directory
-- Master: the main version of the file
-- A branch: a copy of the master where you can make changes without changing the master
-- A fork: a copy of someone else's repository
-- Commit: save changes
-- Stage: prepare files for uploading to Github
-- Pull/Push: download/upload any changes from/to Github to/from your computer
+- $\color{blue}{\text{Repository/Repo}}$--- a directory
+- $\color{blue}{\text{Master}}$ --- the main version of the file
+- $\color{blue}{\text{Branch}}$ --- a copy of the master where you can make changes without changing the master
+- $\color{blue}{\text{Fork}}$ --- a copy of someone else's repository
+- $\color{blue}{\text{Commit}}$ --- save changes
+- $\color{blue}{\text{Stage}}$ --- prepare files for uploading to Github
+- $\color{blue}{\text{Pull/Push}}$ --- download/upload any changes from/to Github to/from your computer
 
 ## Set Up:
 
@@ -74,7 +74,7 @@ knitr::include_graphics('./cartoon.png', auto_pdf = FALSE)
 - Do some more work, make sure the project still works, make another commit, but this time check the 'amend the previous commit' box
 - Once you are ready to share your progress with others, commit amending again, but enter a meaningful commit message. Push. 
 
-
+# Congratulations! You are an expert in Github!
 
 
 
